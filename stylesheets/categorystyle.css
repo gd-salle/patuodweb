@@ -1,0 +1,57 @@
+@import url('https://fonts.cdnfonts.com/css/quiapo-free');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.category{
+    display: none;
+}
+
+.category > .title{
+    font-family: 'Quiapo Free', sans-serif;
+    text-align: center;
+    color: #785D17;
+    letter-spacing: 3px;
+    text-shadow: 8px 1px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+}
+
+.category-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 100px;
+}
+
+.category-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    background: linear-gradient(rgba(226, 171, 30, 0.5), rgba(214, 193, 139, 0.5));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Quiapo Free', sans-serif;
+    color: #743722;
+    border: none;
+    cursor: pointer;
+}
+
+.category-btn button:hover{
+    color: white;
+}
