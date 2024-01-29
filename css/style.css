@@ -22,7 +22,7 @@ a {
     height: 100vh;
 }
 .landing-page{
-    display: none;
+    /* display: none; */
 }
 
 .landing-page > .title {

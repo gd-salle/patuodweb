@@ -9,24 +9,55 @@ html, body {
     box-sizing: border-box;
 }
 
+.highscore-section {
+    display: none;
+    font-family: 'Quiapo Free', sans-serif;
+    background: url('/images/background4.jpg') no-repeat fixed center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.highscore-section > .title{
+    text-align: center;
+    color: #6E2E06;
+    letter-spacing: 3px;
+    text-shadow: 8px 1px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .highscore{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
     width: 100vw;
-    height: 20vh;
-    color: rgba(110, green, blue, alpha);
+    height: 30vh;
+    background-color: rgba(110, 46 , 6, .85);
+    color: white;
+}
+
+.highscore-section > .continue-btn {
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highscore-section > .continue-btn > a {
+    color: white;
+    animation: blink 1.75s ease-in-out infinite; /* Adjusted animation for smoother effect */
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
 }
