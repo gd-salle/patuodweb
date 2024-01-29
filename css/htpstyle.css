@@ -10,7 +10,7 @@ html, body {
 }
 
 .how-to-play{
-    /* display: none; */
+    display: none;
 }
 
 .how-to-play > .title{
