@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const categoryBtn = document.getElementById('categoryBtn');
     const gpSettingBtn = document.getElementById('gpSettingBtn');
     const resumeBtn = document.getElementById('resumeBtn');
-    const restartBtn = document.getElementById('restartBtn');
-    const quitBtn = document.getElementById('quitBtn');
+
 
     // About The Game
     const atgBtn = document.getElementById('atgBtn');
@@ -44,16 +43,16 @@ document.addEventListener('DOMContentLoaded', function () {
         gameplaySection.style.display = 'block';
         gameplaySettingSection.style.display = 'none';
     })
-    //RESTART
-    restartBtn.addEventListener('click', function (){
-        gameplaySection.style.display = 'none';
-        gameplaySettingSection.style.display = 'block';
-    })
-    //QUIT
-    quitBtn.addEventListener('click', function (){
-        gameplaySettingSection.style.display = 'none';
-        startSection.style.display = 'block';
-    })
+    // //RESTART
+    // restartBtn.addEventListener('click', function (){
+    //     gameplaySection.style.display = 'none';
+    //     gameplaySettingSection.style.display = 'block';
+    // })
+    // //QUIT
+    // quitBtn.addEventListener('click', function (){
+    //     gameplaySettingSection.style.display = 'none';
+    //     startSection.style.display = 'block';
+    // })
 
 
     // CATEGORY TO MODE JUMP
@@ -112,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // JUMP TO GAMEPLAY SECTION
     normalBtn.addEventListener('click', function () {
-        settingSection.style.display = 'none';
+        modeSection.style.display = 'none';
         gameplaySection.style.display = 'block';
     });
 
