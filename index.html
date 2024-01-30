@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patuod</title>
+    <title>Patuod: A Web Game Representation for Bikol Riddles</title>
     <link href="style.css" rel="stylesheet">
     <link href="modestyle.css" rel="stylesheet">
     <link href="categorystyle.css" rel="stylesheet">
@@ -14,8 +14,9 @@
     <link href="gameplay.css" rel="stylesheet">
     <link href="gpsetting.css" rel="stylesheet">
     <link href="highscorestyle.css" rel="stylesheet">
+    <script src="answerfunctionality.js"></script>
+    <script src="pagejump.js"></script>
 
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -41,8 +42,8 @@
             </div>
 
             <div class="start-container">
-                <div class="start-btn"><button type="button" class="start-btn">PLAY</button></div>
-                <div class="start-btn"><button type="button" class="start-btn">SETTINGS</button></div>
+                <div class="start-btn"><button type="button" class="start-btn" id="playBtn">PLAY</button></div>
+                <div class="start-btn"><button type="button" class="start-btn" id="settingBtn">SETTINGS</button></div>
             </div>
         </section>
 
@@ -52,16 +53,31 @@
                 <div class="line-one" style="font-size: 120px;">SETTINGS</div>
             </div>
 
-            <div class="setting-container">
-                <div class="setting-btn"><button type="button" class="setting-btn">ABOUT THE GAME</button></div>
-                <div class="setting-btn"><button type="button" class="setting-btn">HOW TO PLAY</button></div>
+            <div id="return-button">
+                <button type="button" id="settingReturnBtn">
+                    <img width="40px" height="40px" src="returnButton.png" alt="returnButton" srcset="">
+                    <span>BACK</span>
+                </button>
             </div>
+
+            <div class="setting-container">
+                <div class="setting-btn"><button type="button" class="setting-btn" id="atgBtn">ABOUT THE GAME</button></div>
+                <div class="setting-btn"><button type="button" class="setting-btn" id="htpBtn">HOW TO PLAY</button></div>
+            </div>
+
         </section>
 
-        <!-- ABOUT THE GAME -->
+        <!-- ABOUT THE GAME SECTION -->
         <section class="about-the-game">
             <div class="title">
                 <div class="line-one" style="font-size: 100px;">ABOUT THE GAME</div>
+            </div>
+
+            <div id="return-button">
+                <button type="button" id="atgReturnBtn">
+                    <img width="40px" height="40px" src="returnButton.png" alt="returnButton" srcset="">
+                    <span>BACK</span>
+                </button>
             </div>
 
             <div class="atg-container">
@@ -69,12 +85,20 @@
 
             </div>
 
+            
         </section>
 
-        <!-- HOW TO PLAY -->
+        <!-- HOW TO PLAY SECTION -->
         <section class="how-to-play">
             <div class="title">
                 <div class="line-one" style="font-size: 100px;">HOW TO PLAY</div>
+            </div>
+
+            <div id="return-button">
+                <button type="button" id="htpReturnBtn">
+                    <img width="40px" height="40px" src="returnButton.png" alt="returnButton" srcset="">
+                    <span>BACK</span>
+                </button>
             </div>
 
             <div class="htp-container">
@@ -83,6 +107,7 @@
             </div>
             
         </section>
+
         <!-- GAME MODE SECTION -->
         <section class="mode-section">
             <div class="title">
@@ -90,11 +115,11 @@
             </div>
 
             <div class="btn">
-                <a href="">NORMAL</a>
+                <button type="button" id="normalBtn">NORMAL</button>
             </div>
 
             <div class="btn">
-                <a href="">BY CATEGORY</a>
+                <button type="button" id="categoryBtn">BY CATEGORY</button>
             </div>
         </section>
 
@@ -102,6 +127,13 @@
         <section class="category">
             <div class="title">
                 <div class="line-one" style="font-size: 100px;">SELECT YOUR CATEGORY</div>
+            </div>
+
+            <div id="return-button">
+                <button type="button" id="categoryReturnBtn">
+                    <img width="40px" height="40px" src="returnButton.png" alt="returnButton" srcset="">
+                    <span>BACK</span>
+                </button>
             </div>
 
             <div class="category-container">
@@ -116,14 +148,14 @@
 
         </section>
 
-        <!-- GAMEPLAY --> <!-- ANSWER FUNCTIONALITY DONE! --> <!-- QUESTION FUNCTIONALITY ONGOING! -->
+        <!-- GAMEPLAY SECTION --> <!-- ANSWER FUNCTIONALITY DONE! --> <!-- QUESTION FUNCTIONALITY ONGOING! -->
         <section class="gameplay-section">
             <div class="gameplay-container">
                 <div class="score">SCORE: <p style="display:inline;">XXXX</p></div>
                 <div class="setting-icon">
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
+                    <button type="button" id="gpSettingBtn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
                         <g fill="#743722" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M10.49023,2c-0.479,0 -0.88847,0.33859 -0.98047,0.80859l-0.33398,1.71484c-0.82076,0.31036 -1.57968,0.74397 -2.24609,1.29102l-1.64453,-0.56641c-0.453,-0.156 -0.95141,0.03131 -1.19141,0.44531l-1.50781,2.61328c-0.239,0.415 -0.15202,0.94186 0.20898,1.25586l1.31836,1.14648c-0.06856,0.42135 -0.11328,0.8503 -0.11328,1.29102c0,0.44072 0.04472,0.86966 0.11328,1.29102l-1.31836,1.14648c-0.361,0.314 -0.44798,0.84086 -0.20898,1.25586l1.50781,2.61328c0.239,0.415 0.73841,0.60227 1.19141,0.44727l1.64453,-0.56641c0.6662,0.54671 1.42571,0.97884 2.24609,1.28906l0.33398,1.71484c0.092,0.47 0.50147,0.80859 0.98047,0.80859h3.01953c0.479,0 0.88847,-0.33859 0.98047,-0.80859l0.33399,-1.71484c0.82076,-0.31036 1.57968,-0.74397 2.24609,-1.29102l1.64453,0.56641c0.453,0.156 0.95141,-0.03031 1.19141,-0.44531l1.50781,-2.61523c0.239,-0.415 0.15202,-0.93991 -0.20898,-1.25391l-1.31836,-1.14648c0.06856,-0.42135 0.11328,-0.8503 0.11328,-1.29102c0,-0.44072 -0.04472,-0.86966 -0.11328,-1.29102l1.31836,-1.14648c0.361,-0.314 0.44798,-0.84086 0.20898,-1.25586l-1.50781,-2.61328c-0.239,-0.415 -0.73841,-0.60227 -1.19141,-0.44727l-1.64453,0.56641c-0.6662,-0.54671 -1.42571,-0.97884 -2.24609,-1.28906l-0.33399,-1.71484c-0.092,-0.47 -0.50147,-0.80859 -0.98047,-0.80859zM12,8c2.209,0 4,1.791 4,4c0,2.209 -1.791,4 -4,4c-2.209,0 -4,-1.791 -4,-4c0,-2.209 1.791,-4 4,-4z"></path></g></g>
-                        </svg></a>
+                        </svg></button>
                 </div>
 
                 <div class="boy1">
@@ -145,19 +177,20 @@
             </div>
         </section>
 
+        <!-- GAMEPLAY SETTING SECTION-->
         <section class="gameplay-setting">
             <div class="title">
                 <div class="line-one" style="font-size: 100px;">SETTING</div>
             </div>
 
             <div class="gpsetting-container">
-                <div class="gpsetting-btn"><button type="button" class="setting-btn">PLANT</button></div>
-                <div class="gpsetting-btn"><button type="button" class="setting-btn">OBJECTS</button></div>
-                <div class="gpsetting-btn"><button type="button" class="setting-btn">ANIMALS</button></div>
-                <div class="gpsetting-btn"><button type="button" class="setting-btn">FRUITS</button></div>
+                <div class="gpsetting-btn"><button type="button" class="setting-btn" id="resumeBtn">RESUME</button></div>
+                <div class="gpsetting-btn"><button type="button" class="setting-btn" id="restartBtn">RESTART</button></div>
+                <div class="gpsetting-btn"><button type="button" class="setting-btn" id="quitBtn">QUIT</button></div>
             </div>
         </section>
-
+        
+        <!-- HIGHSCORE SECTION-->
         <section class="highscore-section">
             <div class="title">
                 <div class="line-one" style="font-size: 150px;">CONGRATULATIONS</div>

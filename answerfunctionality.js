@@ -1,15 +1,3 @@
-// PAGE JUMP DONE!
-document.addEventListener('DOMContentLoaded', function () {
-    const startBtn = document.getElementById('startBtn');
-    const landingPage = document.querySelector('.landing-page');
-    const startSection = document.querySelector('.start-section');
-
-    startBtn.addEventListener('click', function () {
-        landingPage.style.display = 'none';
-        startSection.style.display = 'block';
-    });
-});
-
 // ANSWER FUNCTION DONE!
 document.addEventListener('DOMContentLoaded', function () {
     function generateInputs(word) {
@@ -54,5 +42,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Example usage: Call the function with the word 'test'
-    generateInputs('lezgooo');
+    generateInputs('testing');
 });

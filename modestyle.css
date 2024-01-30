@@ -48,7 +48,14 @@ html, body {
     bottom: 25%;
 }
 
-.mode-section > .btn > a {
+.mode-section > .btn > button {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    background-color: transparent;
+    font-family: 'Quiapo Free', sans-serif;
     font-size: 60px;
     text-align: center;
+    color: #743722;
 }
