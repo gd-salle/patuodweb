@@ -10,7 +10,7 @@ html, body {
 }
 
 .gameplay-section {
-    display: none;
+    /* display: none; */
     position: relative;
     background: url('background2.png') no-repeat fixed center;
     background-size: 100% 100%;
@@ -61,4 +61,28 @@ html, body {
     animation-name: wave-animation; 
     animation-duration: 2.5s;        
     animation-iteration-count: infinite;  
+}
+
+.answer-container{
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.answer-container > input {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 5px;
+    border: transparent;
+    border-bottom: 5px solid white;
+}
+
+input:focus{
+    outline: none;
+    /* border-color: transparent; */
 }
