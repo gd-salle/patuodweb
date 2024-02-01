@@ -35,7 +35,7 @@ html, body {
     grid-gap: 20px 100px;
 }
 
-.category-btn button{
+.btn button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +52,6 @@ html, body {
     cursor: pointer;
 }
 
-.category-btn button:hover{
+.btn button:hover{
     color: white;
 }

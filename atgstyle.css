@@ -35,3 +35,24 @@ html, body {
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
+#return-button > button {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quiapo Free', sans-serif;
+    font-size: 25px;
+    color: #6E2E06;
+    text-align: center;
+}
+#return-button > button > span {
+    padding-left: 5px;
+    
+}
