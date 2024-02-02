@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const gameplaySettingSection = document.querySelector('.gameplay-setting');
     const highscoreSection = document.querySelector('.highscore-section');
     const modeSection = document.querySelector('.mode-section');
-    const categorySection = document.querySelector('.category');
     
     // ARRAY OF OBJECTS
     const questions = [
