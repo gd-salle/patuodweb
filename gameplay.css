@@ -12,72 +12,10 @@ html, body {
 .gameplay-section {
     display: none;
     position: relative;
-    background: url('background2.png') no-repeat fixed center;
+    background: url('images/background2.png') no-repeat fixed center;
     background-size: 100% 100%;
     height: 100vh;
 }
-
-.plant-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.object-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.animal-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.fruit-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.bodypart-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.hbody-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.food-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-.natural-gamemode{
-    display: none;
-    position: relative;
-    background: url('background2.png') no-repeat fixed center;
-    background-size: 100% 100%;
-    height: 100vh;
-}
-
-
-
-
-
 
 .gameplay-container > .setting-icon{
     position: absolute;
