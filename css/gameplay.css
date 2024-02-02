@@ -10,7 +10,7 @@ html, body {
 }
 
 .gameplay-section {
-    display: none;
+    /* display: none; */
     position: relative;
     background: url('images/background2.png') no-repeat fixed center;
     background-size: 100% 100%;
