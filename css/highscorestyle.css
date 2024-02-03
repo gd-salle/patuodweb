@@ -8,7 +8,9 @@ html, body {
 * {
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+}
 .highscore-section {
     display: none;
     font-family: 'Quiapo Free', sans-serif;
