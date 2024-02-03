@@ -1,17 +1,27 @@
 document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
-        // PLANT CATEGORY
-        { category: 'Plant', question: 'An payong nin agta\nDae nababasa', answer: 'natong', status: true},
-        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'ewan' , status: true},
-        { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'probably' , status: true},
-        { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'idk' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'iguessso' , status: true},
-        { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Orig ko sa pulo\nBulbul na pako', answer: 'Blue Whale', status: true}, 
+        // OBJECT CATEGORY
+        { category: 'Object', question: 'Yugyog sa kabalagun an huning kapunayan', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Binotong ko si balagon\nNaribok si maghapon', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'May ngipon daeng ngimot\nMay bitis daeng kamot', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Labi an rutab rutab\nMantang naglulutab', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'May lalawgon mayong mata, may kamot mayong takyag\nKun nagagadan dae nalalapa', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Talodtod nin buaya\nMaghapon balada', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Kun ati hararom\n Kun taob hababaw', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Kapti an ikog ko\nTa maladop ako', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Dara mo, dara ka\nDara pa an saimong dara', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Pagkaaga minatindog\nPagkabang gi lupaypay', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Tulong magturugang ning mapuputi an daghan', answer: 'Blue Whale', status: true},
     ]
 
     // GAMEPLAY SECTION

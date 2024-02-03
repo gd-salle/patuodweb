@@ -1,17 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
-        // PLANT CATEGORY
-        { category: 'Plant', question: 'An payong nin agta\nDae nababasa', answer: 'natong', status: true},
-        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'ewan' , status: true},
-        { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'probably' , status: true},
-        { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'idk' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'iguessso' , status: true},
-        { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Orig ko sa pulo\nBulbul na pako', answer: 'Blue Whale', status: true}, 
+        // FOOD CATEGORY
+        { category: 'Food', question: 'Harong ko sa laog malapot\nDae pwerta daeng gakot', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Tubig naging dugo\nDugo naging gapo', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'An payong nin agta\nDae nababasa', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Harong kosa Masbate\nSaro saro an harigi', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkuku', answer: 'Blue Whale', status: true},
     ]
 
     // GAMEPLAY SECTION

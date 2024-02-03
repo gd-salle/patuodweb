@@ -1,17 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
-        // PLANT CATEGORY
-        { category: 'Plant', question: 'An payong nin agta\nDae nababasa', answer: 'natong', status: true},
-        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'ewan' , status: true},
-        { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'probably' , status: true},
-        { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'idk' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'iguessso' , status: true},
-        { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Orig ko sa pulo\nBulbul na pako', answer: 'Blue Whale', status: true}, 
+        // BODY PART CATEGORY
+        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal ning tingga', answer: 'Blue Whale', status: true},
+        { category: 'BodyPart', question: 'Duwang bolang itom\nHarayo an inabaton\nDae man inapon', answer: 'Blue Whale', status: true},
+        { category: 'BodyPart', question: 'Kaputi ta yaon\n Hilinga ta mayo', answer: 'Blue Whale', status: true},
+        { category: 'BodyPart', question: 'Mapasatubig, Mapasakalayo\nDae naaano', answer: 'Blue Whale', status: true},, 
     ]
 
     // GAMEPLAY SECTION
@@ -122,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
         score = 0;
     }
 
-    displayQuestion(currentQuestionIndex);
 
     const gameplaySection = document.querySelector('.gameplay-section');
     const resumeBtnBtn = document.getElementById('resumeBtn');
@@ -134,12 +127,14 @@ document.addEventListener('DOMContentLoaded', function () {
     gpSettingBtn.addEventListener('click', function () {
         gameplaySettingSection.style.display = 'block';
         gameplaySection.style.display = 'none';
+        clickedSound.play();
     });
     
     //RESUME
     resumeBtnBtn.addEventListener('click', function () {
         gameplaySettingSection.style.display = 'none';
         gameplaySection.style.display = 'block';
+        clickedSound.play();
     });
 
     //RESTART
@@ -159,4 +154,5 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('quitBtn').addEventListener('click', goToIndexPage);
     document.getElementById('startBtn').addEventListener('click', goToIndexPage);
 
+    displayQuestion(currentQuestionIndex);
 })
