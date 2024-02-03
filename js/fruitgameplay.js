@@ -152,6 +152,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.getElementById('quitBtn').addEventListener('click', goToIndexPage);
-    document.getElementById('startBtn').addEventListener('click', goToIndexPage);
+    document.getElementById('continueBtn').addEventListener('click', goToIndexPage);
 
 })
