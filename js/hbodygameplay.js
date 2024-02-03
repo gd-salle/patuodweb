@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // NATURAL CATEGORY
-        { category: 'HeavenlyBody', question: 'Kalibkib na lubi\nNag iidos kun banggi', answer: 'Blue Whale', status: true},
+        { category: 'HeavenlyBody', question: 'Kalibkib na lubi\nNag iidos kun banggi', answer: 'Bulan', status: true},
     ]
 
     // GAMEPLAY SECTION

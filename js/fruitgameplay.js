@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // FOOD CATEGORY
-        { category: 'Fruit', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Blue Whale', status: true},
+        { category: 'Fruit', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Batag', status: true},
+        { category: 'Fruit', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Tipong', status: true},
+        { category: 'Fruit', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Lukban', status: true},
+        { category: 'Fruit', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Tapayas', status: true},
+        { category: 'Fruit', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
     ]
 
     // GAMEPLAY SECTION

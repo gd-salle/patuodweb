@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // NATURAL CATEGORY
-        { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Blue Whale', status: true},
-        { category: 'Natural', question: 'Nag-abot si boy negro\nNagkagaradan si mga tao', answer: 'Blue Whale', status: true},
-        { category: 'Natural', question: 'Aram mo pero dai mo masasabot an\nDae mo nasasabot', answer: 'Blue Whale', status: true},
+        { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Balangaw', status: true},
+        { category: 'Natural', question: 'Nag-abot si boy negro\nNagkagaradan si mga tao', answer: 'Banggi', status: true},
+        { category: 'Natural', question: 'Aram mo pero dai mo masasabot an\nDae mo nasasabot', answer: 'Kagadanan', status: true},
     ]
 
     // GAMEPLAY SECTION

@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // ANIMAL CATEGORY
-        { category: 'Animal', question: 'An atop kawali\nAn tuhod barari', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Arado sa inutan\nWitwit sa haruhan', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'May payo mayong buhok\nMay tulak mayong pusod', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Biribid an tulang\nBiribid an laman', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Naglalayog si Ilay\nNaglalaad an kiray', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Sadit pa si kumpare\nSuminakat na sa tore', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Sadit pa si Nene\nTatao na magtahi', answer: 'Blue Whale', status: true},
+        { category: 'Animal', question: 'An atop kawali\nAn tuhod barari', answer: 'An-it', status: true},
+        { category: 'Animal', question: 'Arado sa inutan\nWitwit sa haruhan', answer: 'Orig', status: true},
+        { category: 'Animal', question: 'May payo mayong buhok\nMay tulak mayong pusod', answer: 'Talapang', status: true},
+        { category: 'Animal', question: 'Biribid an tulang\nBiribid an laman', answer: 'Tabagwang', status: true},
+        { category: 'Animal', question: 'Naglalayog si Ilay\nNaglalaad an kiray', answer: 'Aninipot', status: true},
+        { category: 'Animal', question: 'Sadit pa si kumpare\nSuminakat na sa tore', answer: 'Tanga', status: true},
+        { category: 'Animal', question: 'Sadit pa si Nene\nTatao na magtahi', answer: 'Lawa', status: true},
     ]
 
     // GAMEPLAY SECTION
