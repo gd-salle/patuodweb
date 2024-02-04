@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // NATURAL CATEGORY
         { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Balangaw', status: true},
         { category: 'Natural', question: 'Nag-abot si boy negro\nNagkagaradan si mga tao', answer: 'Banggi', status: true},
-        { category: 'Natural', question: 'Aram mo pero dai mo masasabot an\nDae mo nasasabot', answer: 'Kagadanan', status: true},
+        { category: 'Natural', question: 'Aram mo pero dai mo masasabotan\nDai mo nasasabotan pero aram mo', answer: 'Kagadanan', status: true},
+        { category: 'Natural', question: 'Bakong tao, bakong hayop\nPero nagsisigarilyo', answer: 'Bulkan', status: true},
     ]
 
     // GAMEPLAY SECTION

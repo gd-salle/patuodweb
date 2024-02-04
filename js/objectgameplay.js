@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // OBJECT CATEGORY
-        { category: 'Object', question: 'Yugyog sa kabalagun an huning kapunayan', answer: 'gitara', status: true},
+        { category: 'Object', question: 'Yugyog sa kabalagunan\nHuning kapunayan', answer: 'gitara', status: true},
         { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'tubo', status: true},
         { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'palito', status: true},
         { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'ulunan', status: true},
@@ -10,18 +10,18 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'sako', status: true},
         { category: 'Object', question: 'May ngipon daeng ngimot\nMay bitis daeng kamot', answer: 'kudkudan', status: true},
         { category: 'Object', question: 'Labi an rutab rutab\nMantang naglulutab', answer: 'kandila', status: true},
-        { category: 'Object', question: 'May lalawgon mayong mata, may kamot mayong takyag\nKun nagagadan dae nalalapa', answer: 'relo', status: true},
+        { category: 'Object', question: 'May lalawgon mayong mata\nMay kamot mayong takyag\nKun nagagadan dae nalalapa', answer: 'relo', status: true},
         { category: 'Object', question: 'Talodtod nin buaya\nMaghapon balada', answer: 'atop', status: true},
         { category: 'Object', question: 'Kun ati hararom\n Kun taob hababaw', answer: 'dulay', status: true},
         { category: 'Object', question: 'Kapti an ikog ko\nTa maladop ako', answer: 'tabo', status: true},
         { category: 'Object', question: 'Dara mo, dara ka\nDara pa an saimong dara', answer: 'sapatos', status: true},
-        { category: 'Object', question: 'Pagkaaga minatindog\nPagkabang gi lupaypay', answer: 'banig', status: true},
+        { category: 'Object', question: 'Pagkaaga minatindog\nPagkabanggi lupaypay', answer: 'banig', status: true},
         { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'bado', status: true},
-        { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'tabayop', status: true},
+        { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'talayop', status: true},
         { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable kan kuryente', status: true},
         { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'oring', status: true},
         { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'dalan', status: true},
-        { category: 'Object', question: 'Tulong magturugang ning mapuputi an daghan', answer: 'Taluhong', status: true},
+        { category: 'Object', question: 'Tulong magturugang\nMapuputi an daghan', answer: 'Taluhong', status: true},
     ]
 
     // GAMEPLAY SECTION

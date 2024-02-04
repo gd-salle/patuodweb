@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const questions = [
         // PLANT CATEGORY
         { category: 'Plant', question: 'An payong nin agta\nDae nababasa', answer: 'natong', status: true},
-        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'tubo' , status: true},
+        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'tubo' , status: true},
         { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'kalabasa' , status: true},
         { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'kabute' , status: true},
         { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'sili' , status: true},
