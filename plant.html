@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/highscorestyle.css">
     <link rel="stylesheet" href="css/gpsetting.css">
     <link rel="stylesheet" href="css/highscorestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
     <script src="js/plantgameplay.js"></script>
 </head>
@@ -38,6 +39,10 @@
                     <!-- DYNAMIC INPUT BOX -->
                 </div>
     
+                <div class="gameplay-button">
+                    <button type="button" id="shuffleBtn">SHUFFLE</button>
+                    <button type="button" id="passBtn">PASS</button>
+                </div>
             </div>
         </section>
     
@@ -66,12 +71,22 @@
             </div>'
             
             <div class="continue-btn">
-                <a href="#" id="startBtn">-- Click here to Continue --</a>
+                <a href="#" id="continueBtn">-- Click here to Continue --</a>
             </div>
         </section>
     </div>
 
     <audio id="clickedSound" src="Audio/button-clicked.mp3"></audio>
+    <audio id="bg-music" src="Audio/background-music.mp3" autoplay loop></audio>
+    <audio id="incorrect" src="Audio/incorrect.mp3"></audio>
+    <audio id="correct" src="Audio/correct.mp3"></audio>
+    
+    <script>
+        // Get the audio element
+        const bgMusic = document.getElementById('bg-music');
 
+        // Set the volume to 50% (0.5)
+        bgMusic.volume = 0.3;
+    </script>
 </body>
 </html>

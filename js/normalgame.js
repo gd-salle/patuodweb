@@ -18,82 +18,82 @@ document.addEventListener('DOMContentLoaded', function () {
     const questions = [
         // PLANT CATEGORY
         { category: 'Plant', question: 'An payong nin agta\nDae nababasa', answer: 'natong', status: true},
-        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'ewan' , status: true},
-        { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'probably' , status: true},
-        { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'idk' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'iguessso' , status: true},
-        { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Plant', question: 'Orig ko sa pulo\nBulbul na pako', answer: 'Blue Whale', status: true},
+        { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'tubo' , status: true},
+        { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'kalabasa' , status: true},
+        { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'kabute' , status: true},
+        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'sili' , status: true},
+        { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'batag', status: true},
+        { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'tipong', status: true},
+        { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'lukban', status: true},
+        { category: 'Plant', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'tapayas', status: true},
+        { category: 'Plant', question: 'Orig ko sa pulo\nBulbul na pako', answer: 'langka', status: true}, 
         
         // OBJECT CATEGORY
-        { category: 'Object', question: 'Yugyog sa kabalagun an huning kapunayan', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Binotong ko si balagon\nNaribok si maghapon', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'May ngipon daeng ngimot\nMay bitis daeng kamot', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Labi an rutab rutab\nMantang naglulutab', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'May lalawgon mayong mata, may kamot mayong takyag\nKun nagagadan dae nalalapa', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Talodtod nin buaya\nMaghapon balada', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Kun ati hararom\n Kun taob hababaw', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Kapti an ikog ko\nTa maladop ako', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Dara mo, dara ka\nDara pa an saimong dara', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Pagkaaga minatindog\nPagkabang gi lupaypay', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'Blue Whale', status: true},
-        { category: 'Object', question: 'Tulong magturugang ning mapuputi an daghan', answer: 'Blue Whale', status: true},
+        { category: 'Object', question: 'Yugyog sa kabalagunan\nHuning kapunayan', answer: 'gitara', status: true},
+        { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'tubo', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'palito', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'ulunan', status: true},
+        { category: 'Object', question: 'Binotong ko si balagon\nNaribok si maghapon', answer: 'kampana', status: true},
+        { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'sako', status: true},
+        { category: 'Object', question: 'May ngipon daeng ngimot\nMay bitis daeng kamot', answer: 'kudkudan', status: true},
+        { category: 'Object', question: 'Labi an rutab rutab\nMantang naglulutab', answer: 'kandila', status: true},
+        { category: 'Object', question: 'May lalawgon mayong mata\nMay kamot mayong takyag\nKun nagagadan dae nalalapa', answer: 'relo', status: true},
+        { category: 'Object', question: 'Talodtod nin buaya\nMaghapon balada', answer: 'atop', status: true},
+        { category: 'Object', question: 'Kun ati hararom\n Kun taob hababaw', answer: 'dulay', status: true},
+        { category: 'Object', question: 'Kapti an ikog ko\nTa maladop ako', answer: 'tabo', status: true},
+        { category: 'Object', question: 'Dara mo, dara ka\nDara pa an saimong dara', answer: 'sapatos', status: true},
+        { category: 'Object', question: 'Pagkaaga minatindog\nPagkabanggi lupaypay', answer: 'banig', status: true},
+        { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'bado', status: true},
+        { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'talayop', status: true},
+        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable kan kuryente', status: true},
+        { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'oring', status: true},
+        { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'dalan', status: true},
+        { category: 'Object', question: 'Tulong magturugang\nMapuputi an daghan', answer: 'Taluhong', status: true},
 
         // ANIMAL CATEGORY
-        { category: 'Animal', question: 'An atop kawali\nAn tuhod barari', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Arado sa inutan\nWitwit sa haruhan', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'May payo mayong buhok\nMay tulak mayong pusod', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Biribid an tulang\nBiribid an laman', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Naglalayog si Ilay\nNaglalaad an kiray', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Sadit pa si kumpare\nSuminakat na sa tore', answer: 'Blue Whale', status: true},
-        { category: 'Animal', question: 'Sadit pa si Nene\nTatao na magtahi', answer: 'Blue Whale', status: true},
+        { category: 'Animal', question: 'An atop kawali\nAn tuhod barari', answer: 'An-it', status: true},
+        { category: 'Animal', question: 'Arado sa inutan\nWitwit sa haruhan', answer: 'Orig', status: true},
+        { category: 'Animal', question: 'May payo mayong buhok\nMay tulak mayong pusod', answer: 'Talapang', status: true},
+        { category: 'Animal', question: 'Biribid an tulang\nBiribid an laman', answer: 'Tabagwang', status: true},
+        { category: 'Animal', question: 'Naglalayog si Ilay\nNaglalaad an kiray', answer: 'Aninipot', status: true},
+        { category: 'Animal', question: 'Sadit pa si kumpare\nSuminakat na sa tore', answer: 'Tanga', status: true},
+        { category: 'Animal', question: 'Sadit pa si Nene\nTatao na magtahi', answer: 'Lawa', status: true},
 
         // FRUIT CATEGORY
-        { category: 'Fruit', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Fruit', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Blue Whale', status: true},
+        { category: 'Fruit', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Batag', status: true},
+        { category: 'Fruit', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Tipong', status: true},
+        { category: 'Fruit', question: 'Bola an laog gapas\nGapas an laog dagom\nDagom an laog tubig', answer: 'Lukban', status: true},
+        { category: 'Fruit', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Tapayas', status: true},
+        { category: 'Fruit', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
 
-        // BODY PARTS CATEGORY
-        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal ning tingga', answer: 'Blue Whale', status: true},
-        { category: 'BodyPart', question: 'Duwang bolang itom\nHarayo an inabaton\nDae man inapon', answer: 'Blue Whale', status: true},
-        { category: 'BodyPart', question: 'Kaputi ta yaon\n Hilinga ta mayo', answer: 'Blue Whale', status: true},
-        { category: 'BodyPart', question: 'Mapasatubig, Mapasakalayo\nDae naaano', answer: 'Blue Whale', status: true},
+        // // BODY PARTS CATEGORY
+        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal ning tingga', answer: 'Dila', status: true},
+        { category: 'BodyPart', question: 'Duwang bolang itom\nHarayo an inabaton\nDae man inapon', answer: 'Mata', status: true},
+        { category: 'BodyPart', question: 'Kaputi ta yaon\n Hilinga ta mayo', answer: 'Talinga', status: true},
+        { category: 'BodyPart', question: 'Mapasatubig, Mapasakalayo\nDae naaano', answer: 'Anino', status: true},
 
         // HEAVENLY BODIES
-        { category: 'HeavenlyBody', question: 'Kalibkib na lubi\nNag iidos kun banggi', answer: 'Blue Whale', status: true},
+        { category: 'HeavenlyBody', question: 'Kalibkib na lubi\nNag iidos kun banggi', answer: 'Bulan', status: true},
 
         // FOOD
-        { category: 'Food', question: 'Harong ko sa laog malapot\nDae pwerta daeng gakot', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Tubig naging dugo\nDugo naging gapo', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Harong ko sa laog malapot\nDae pwerta daeng gakot', answer: 'Sugok', status: true},
+        { category: 'Food', question: 'Tubig naging dugo\nDugo naging gapo', answer: 'Sangkaka', status: true},
+        { category: 'Food', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Batag', status: true},
         { category: 'Food', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'An payong nin agta\nDae nababasa', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Tubig sa daso\nDae nagkakalag o-kag', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Harong kosa Masbate\nSaro saro an harigi', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkuku', answer: 'Blue Whale', status: true},
+        { category: 'Food', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Tipong', status: true},
+        { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Lukban', status: true},
+        { category: 'Food', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
+        { category: 'Food', question: 'An payong nin agta\nDae nababasa', answer: 'Natong', status: true},
+        { category: 'Food', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'Tubo', status: true},
+        { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Kalabasa', status: true},
+        { category: 'Food', question: 'Harong kosa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukurahaw', answer: 'Sili', status: true},
 
         // NATURAL PHENOMENA
-        { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Blue Whale', status: true},
-        { category: 'Natural', question: 'Nag-abot si boy negro\nNagkagaradan si mga tao', answer: 'Blue Whale', status: true},
-        { category: 'Natural', question: 'Aram mo pero dai mo masasabot an\nDae mo nasasabot', answer: 'Blue Whale', status: true},
-        
+        { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Balangaw', status: true},
+        { category: 'Natural', question: 'Nag-abot si boy negro\nNagkagaradan si mga tao', answer: 'Banggi', status: true},
+        { category: 'Natural', question: 'Aram mo pero dai mo masasabotan\nDai mo nasasabotan pero aram mo', answer: 'Kagadanan', status: true},
+        { category: 'Natural', question: 'Bakong tao, bakong hayop\nPero nagsisigarilyo', answer: 'Bulkan', status: true},
     ];
     // GAMEPLAY SECTION
     const answerContainer = document.querySelector('.answer-container');
@@ -102,23 +102,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let currentQuestionIndex = 0;
     let score = 0;
-    let answeredQuestions = [];
 
     // RANDOM QUESTION FUNCTIONALITY
     function getRandomQuestion() {
         // Filter out the answered questions
         const unansweredQuestions = questions.filter(q => q.status);
-
+    
         // Check if there are still unanswered questions
         if (unansweredQuestions.length > 0) {
             // Pick a random index from the unanswered questions
             const randomIndex = Math.floor(Math.random() * unansweredQuestions.length);
             // Get the randomly selected question
             const randomQuestion = unansweredQuestions[randomIndex];
-            // Mark the question as answered
-            randomQuestion.status = false;
-            // Add the question to the answered questions list
-            answeredQuestions.push(randomQuestion);
             return randomQuestion;
         } else {
             // All questions have been answered, return null
@@ -127,38 +122,81 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // GENERATE INPUT TAGS
-    function generateInputs(word) {
+    function generateInputs(word, question) {
         answerContainer.innerHTML = '';
-    
+
+        // Check if the question is already answered
+        if (!question.status) {
+            // If the question is answered, display a message or handle it as needed
+            console.log('Question already answered:', question);
+            return;
+        }
+
         for (let i = 0; i < word.length; i++) {
             const input = document.createElement('input');
             input.type = 'text';
             input.maxLength = 1;
             answerContainer.appendChild(input);
-    
+
             if (i > 0) {
                 input.disabled = true;
             }
-    
+
             input.addEventListener('input', function () {
                 if (i < word.length - 1 && input.value) {
                     answerContainer.children[i + 1].disabled = false;
                     answerContainer.children[i + 1].focus();
                 }
-    
-                // Check if the entire word is correct
-                if (answerContainer.children.length === word.length && Array.from(answerContainer.children).every(input => input.value.toLowerCase() === word.charAt(Array.from(answerContainer.children).indexOf(input)).toLowerCase())) {
-                    // Word is correct, proceed to the next question or highscore if all questions are answered
-                    currentQuestionIndex++;
-                    score += 100;
-                    if (currentQuestionIndex < questions.length) {
-                        displayQuestion(currentQuestionIndex);
-                    } else {
-                        displayHighscore();
-                    }
+
+                // Check if the entire word is filled in
+                const isWordFilledIn = Array.from(answerContainer.children).every(input => input.value);
+                
+                if (isWordFilledIn && Array.from(answerContainer.children).every(input => input.value.toLowerCase() === word.charAt(Array.from(answerContainer.children).indexOf(input)).toLowerCase())) {
+                    // Mark the question as answered
+                    question.status = false;
+                    playCorrectSound();
+                    // Word is correct, add the "CORRECT" animation and proceed to the next question or highscore if all questions are answered
+                    const correctElement = document.createElement('h1');
+                    correctElement.classList.add('animate__animated', 'animate__flash','animate__faster', 'correct-text');
+                    correctElement.textContent = 'CORRECT';
+                    document.body.appendChild(correctElement);
+
+                    setTimeout(() => {
+                        document.body.removeChild(correctElement);
+
+                        currentQuestionIndex++;
+                        score += 100;
+                        if (currentQuestionIndex < questions.length) {
+                            displayQuestion(currentQuestionIndex);
+                        } else {
+                            displayHighscore();
+                        }
+                    }, 1000); // Adjust the delay as needed
+                } else if (isWordFilledIn) {
+                    playIncorrectSound();
+                    // Incorrect answer handling
+                    const incorrectElement = document.createElement('h1');
+                    incorrectElement.classList.add('animate__animated', 'animate__flash','animate__faster', 'incorrect-text');
+                    incorrectElement.textContent = 'INCORRECT';
+                    document.body.appendChild(incorrectElement);
+
+                    setTimeout(() => {
+                        document.body.removeChild(incorrectElement);
+
+                        // Mark the question as answered
+                        question.status = false;
+
+                        // Proceed to the next question
+                        currentQuestionIndex++;
+                        if (currentQuestionIndex < questions.length) {
+                            displayQuestion(currentQuestionIndex);
+                        } else {
+                            displayHighscore();
+                        }
+                    }, 1000); // Adjust the delay as needed
                 }
             });
-    
+
             input.addEventListener('keydown', function (e) {
                 if (e.key === 'Backspace') {
                     input.value = '';
@@ -169,23 +207,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
         }
-    
+
         // Set autofocus to true for the first input
         answerContainer.children[0].focus();
     }
     
+    function displayIncorrectModal() {
+        // You can implement your modal display logic here
+        alert('Incorrect Answer!'); // Replace this with your modal display code
+    }
+
     function displayQuestion() {
         const currentQuestion = getRandomQuestion();
-        const formattedQuestion = currentQuestion.question.replace(/\n/g, '<br>');
     
         if (currentQuestion) {
+            const formattedQuestion = currentQuestion.question.replace(/\n/g, '<br>');
             questionParagraph.innerHTML = `${formattedQuestion}`;
             scoreParagraph.textContent = `SCORE: ${score}`;
-            generateInputs(currentQuestion.answer);
+            generateInputs(currentQuestion.answer, currentQuestion);
         } else {
             // All questions answered, proceed to highscore
             displayHighscore();
-
         }
     }
     
@@ -229,6 +271,34 @@ document.addEventListener('DOMContentLoaded', function () {
         clickedSound.play();
     });
     
+    document.getElementById('passBtn').addEventListener('click', function () {
+        // Mark the current question as answered (status = false)
+        if (currentQuestionIndex < questions.length) {
+            questions[currentQuestionIndex].status = false;
+        }
+    
+        // Proceed to the next question or highscore if all questions are answered
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            displayQuestion(currentQuestionIndex);
+        } else {
+            displayHighscore();
+        }
+    });
+
+    document.getElementById('shuffleBtn').addEventListener('click', function () {
+        displayQuestion(currentQuestionIndex);
+    })
+    function playCorrectSound() {
+        const correctSound = document.getElementById('correct');
+        correctSound.play();
+    }
+
+    // Play incorrect sound
+    function playIncorrectSound() {
+        const incorrectSound = document.getElementById('incorrect');
+        incorrectSound.play();
+    }
     // DISPLAY FIRST QUESTION
     displayQuestion(currentQuestionIndex);
 });
