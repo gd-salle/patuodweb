@@ -20,8 +20,8 @@ html, body {
     font-family: 'Quiapo Free', sans-serif;
     text-align: center;
     color: #785D17;
-    letter-spacing: 10px;
-    text-shadow: 14px 1px 5px rgba(0, 0, 0, 0.25);
+    letter-spacing: 5px;
+    text-shadow: 10px 1px 5px rgba(0, 0, 0, 0.25);
 }
 
 .setting-container{
@@ -72,7 +72,7 @@ html, body {
 @media only screen and (max-width: 499px){
 
     .setting-section > .title > .line-one{
-        font-size: 60px;
+        font-size: 80px;
     }
 
     .setting-btn button{
