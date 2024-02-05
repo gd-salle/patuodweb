@@ -24,10 +24,12 @@ html, body {
     left: 40%;
     transform: translate(-30%, -50%);
 }
-
+.category > .title > .line-one {
+    font-size: 90px;
+}
 .category-container {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
@@ -39,7 +41,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     width: 25vw;
     height: 10vh;
@@ -54,4 +56,62 @@ html, body {
 
 .btn button:hover{
     color: white;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+
+    .category-container{
+        grid-template-columns: auto auto;
+        grid-gap: 20px 70px;
+    }
+
+    .category > .title > .line-one {
+        font-size: 70px;
+    }
+
+    .btn button{
+        width: 300px;
+        font-size: 35px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:500px) and (max-width: 799px){
+
+    .category-container{
+        grid-template-columns: auto auto;
+        grid-gap: 20px 30px;
+    }
+
+    .category > .title > .line-one {
+        font-size: 60px;
+    }
+
+    .btn button{
+        width: 200px;
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 499px){
+
+    .category-container{
+        grid-template-columns: auto auto;
+        grid-gap: 20px 30px;
+    }
+
+    .category > .title > .line-one {
+        font-size: 50px;
+    }
+
+    .btn button{
+        height: 60px;
+        width: 150px;
+        font-size: 25px;
+    }
+
 }

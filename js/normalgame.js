@@ -211,11 +211,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Set autofocus to true for the first input
         answerContainer.children[0].focus();
     }
-    
-    function displayIncorrectModal() {
-        // You can implement your modal display logic here
-        alert('Incorrect Answer!'); // Replace this with your modal display code
-    }
 
     function displayQuestion() {
         const currentQuestion = getRandomQuestion();
@@ -272,6 +267,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     
     document.getElementById('passBtn').addEventListener('click', function () {
+        clickedSound.play();
         // Mark the current question as answered (status = false)
         if (currentQuestionIndex < questions.length) {
             questions[currentQuestionIndex].status = false;
@@ -287,6 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     document.getElementById('shuffleBtn').addEventListener('click', function () {
+        clickedSound.play();
         displayQuestion(currentQuestionIndex);
     })
     function playCorrectSound() {

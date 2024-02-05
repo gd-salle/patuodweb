@@ -63,3 +63,69 @@ a {
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
 }
+
+.highscore-section > .title > .line-one {
+    font-size: 150px;
+}
+
+.highscore-section > .title > .line-two {
+    font-size: 100px;
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1100px){
+
+    .highscore-section > .title > .line-one {
+        font-size: 130px;
+    }
+    
+    .highscore-section > .title > .line-two {
+        font-size: 80px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:660px) and (max-width: 849px){
+
+    .highscore-section > .title > .line-one {
+        font-size: 100px;
+    }
+    
+    .highscore-section > .title > .line-two {
+        font-size: 60px;
+    }
+    
+}
+
+@media only screen and (min-width:500px) and (max-width: 659px){
+
+    .highscore-section > .title > .line-one {
+        font-size: 80px;
+    }
+    
+    .highscore-section > .title > .line-two {
+        font-size: 40px;
+    }
+
+    .highscore-section > .continue-btn {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 499px){
+
+    .highscore-section > .title > .line-one {
+        font-size: 50px;
+    }
+    
+    .highscore-section > .title > .line-two {
+        font-size: 40px;
+    }
+
+    .highscore-section > .continue-btn {
+        font-size: 18px;
+    }
+}

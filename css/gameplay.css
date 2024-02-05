@@ -85,6 +85,10 @@ input:focus{
     outline: none;
 }
 
+.setting-icon{
+    width: 70px;
+}
+
 .setting-icon > button {
     background: transparent;
     border: none;
@@ -145,4 +149,211 @@ input:focus{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Default styles for larger screens */
+/* Add your existing styles here */
+
+/* Media queries for mobile phones */
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .gameplay-section {
+        background-size: cover;
+    }
+
+    .setting-icon {
+        width: 50px;
+        top: 7%;
+    }
+
+    .question {
+        font-size: 25px;
+    }
+
+    .score{
+        font-size: 30px;
+        top: 7%;
+        left: 18%;
+    }
+
+    .dialog-box {
+        width: 80vw;
+        left: 50%;
+    }
+
+    .boy1,
+    .boy2 {
+        display: none;
+    }
+
+    .answer-container {
+        bottom: 10%;
+    }
+
+    .answer-container > input {
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+        margin: 0 3px;
+        border-bottom: 3px solid white;
+    }
+
+    .gameplay-button {
+        bottom: 1%;
+    }
+
+    .gameplay-button > button {
+        font-size: 20px;
+        width: 30vw;
+        height: 5vh;
+    }
+
+    .correct-text,.incorrect-text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+    .gameplay-section {
+        background-size: cover;
+    }
+
+    .setting-icon {
+        width: 65px;
+        top: 7%;
+    }
+
+    .question {
+        font-size: 30px;
+    }
+
+    .score {
+        font-size: 40px;
+        top: 7%;
+        left: 12%;
+    }
+
+    .dialog-box {
+        width: 65vw;
+        left: 50%;
+
+    }
+
+    .boy1 img{
+        width: 30vw;
+    }
+    .boy2 img{
+        width: 28vw;
+    }
+
+    .boy1{
+        top: 69%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+
+    .boy2{
+        top: 69%;
+        left: 84%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .answer-container {
+        bottom: 12%;
+    }
+
+    .answer-container > input {
+        width: 30px;
+        height: 25px;
+        font-size: 25px;
+        margin: 0 3px;
+        border-bottom: 3px solid white;
+    }
+
+    .gameplay-button {
+        bottom: 3%;
+    }
+
+    .gameplay-button > button {
+        font-size: 30px;
+        width: 22vw;
+        height: 6vh;
+    }
+
+    .correct-text,.incorrect-text {
+    font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px){
+    .gameplay-section {
+        background-size: cover;
+    }
+
+    .setting-icon {
+        width: 60px;
+        top: 7%;
+    }
+
+    .question {
+        font-size: 35px;
+    }
+
+    .score {
+        font-size: 40px;
+        top: 7%;
+        left: 10%;
+    }
+
+    .dialog-box {
+        width: 60vw;
+        left: 50%;
+
+    }
+
+    .boy1 img{
+        width: 20vw;
+    }
+    .boy2 img{
+        width: 18vw;
+    }
+
+    .boy1{
+        top: 69%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+
+    .boy2{
+        top: 69%;
+        left: 87%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .answer-container {
+        bottom: 12%;
+    }
+
+    .answer-container > input {
+        width: 35px;
+        height: 25px;
+        font-size: 30px;
+        margin: 0 3px;
+        border-bottom: 3px solid white;
+    }
+
+    .gameplay-button {
+        bottom: 1%;
+    }
+
+    .gameplay-button > button {
+        font-size: 30px;
+        width: 15vw;
+        height: 7vh;
+    }
+
+    .correct-text,.incorrect-text {
+    font-size: 50px;
+    }
 }

@@ -54,3 +54,30 @@ html, body {
 .setting-btn button:hover{
     color: white;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 1190px){
+
+    .setting-section > .title > .line-one{
+        font-size: 90px;
+    }
+
+    .setting-btn button{
+        font-size: 30px;
+        width: 250px;
+    }
+}
+
+
+
+@media only screen and (max-width: 499px){
+
+    .setting-section > .title > .line-one{
+        font-size: 60px;
+    }
+
+    .setting-btn button{
+        font-size: 25px;
+        width: 200px;
+    }
+    
+}

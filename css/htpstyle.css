@@ -12,6 +12,21 @@ html, body {
 .how-to-play{
     display: none;
 }
+.htp-title {
+    font-family: 'Quiapo Free', sans-serif;
+    text-align: center;
+    color: #785D17;
+    letter-spacing: 3px;
+    text-shadow: 8px 1px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.htp-title > .line-one {
+    font-size: 90px;
+}
 
 .how-to-play > .title{
     position: absolute;
@@ -34,4 +49,49 @@ html, body {
     bottom: 0%;
     left: 50%;
     transform: translate(-50%, 0%);
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+
+    #return-button > button {
+        top: 8%;
+        left: 8%;
+    }
+    .htp-title > .line-one {
+        font-size: 80px;
+    }
+    .htp-container{
+        height: 65vh;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 799px){
+
+    #return-button > button {
+        top: 5%;
+        left: 12%;
+    }
+
+    .htp-title > .line-one {
+        font-size: 70px;
+    }
+    .htp-container{
+        height: 65vh;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px){
+
+    #return-button > button {
+        top: 5%;
+        left: 12%;
+    }
+
+    .htp-title > .line-one {
+        font-size: 50px;
+    }
+    .htp-container{
+        height: 65vh;
+    }
 }

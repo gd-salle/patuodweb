@@ -17,6 +17,10 @@ html, body {
     height: 100vh;
 }
 
+.title > .line-one{
+    font-size: 100px;
+}
+
 .gameplay-setting > .title{
     font-family: 'Quiapo Free', sans-serif;
     text-align: center;
@@ -28,6 +32,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .gpsetting-container{
     position: absolute;
     top: 60%;
@@ -52,4 +57,32 @@ html, body {
     color: #743722;
     border: none;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px){
+
+    .title > .line-one{
+        font-size: 70px;
+    }
+
+    .gpsetting-btn button{
+        font-size: 30px;
+        width: 200px;
+        height: 8vh;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+
+    .title > .line-one{
+        font-size: 100px;
+    }
+
+    .gpsetting-btn button{
+        font-size: 40px;
+        width: 250px;
+        height: 10vh;
+    }
+
 }
