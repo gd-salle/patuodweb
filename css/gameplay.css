@@ -1,11 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/quiapo-free');
 
-body{
+.container{
     height: 100svh;
 }
 html, body {
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 * {
