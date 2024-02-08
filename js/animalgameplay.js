@@ -130,6 +130,37 @@ document.addEventListener('DOMContentLoaded', function () {
         answerContainer.children[0].focus();
     }
     
+    // Function to scramble the answer
+    function scrambleAnswer(answer) {
+        // Split the answer into an array of characters, shuffle them, then join them back into a string
+        return answer.split('').sort(() => Math.random() - 0.5).join('');
+    }
+
+    // Function to handle hint button click
+    function handleHint() {
+        const hintContainer = document.querySelector('.hint-container');
+        // Toggle the visibility of the hint container
+        hintContainer.style.display = 'block';
+
+        // Hide the hint container after 2 seconds
+        setTimeout(function () {
+            hintContainer.style.display = 'none';
+        }, 2000);
+    }
+
+    // Event listener for the hint button
+    hintBtn.addEventListener('click', handleHint);
+
+    // Function to generate hint tags
+    function generateHint(scrambledAnswer) {
+        const hintContainer = document.querySelector('.hint-container');
+        hintContainer.innerHTML = '';
+        const hint = document.createElement('p');
+        hint.textContent = scrambledAnswer;
+        hintContainer.appendChild(hint);
+    }
+
+
     function displayQuestion() {
         const currentQuestion = getRandomQuestion();
     
@@ -138,6 +169,9 @@ document.addEventListener('DOMContentLoaded', function () {
             questionParagraph.innerHTML = `${formattedQuestion}`;
             scoreParagraph.textContent = `SCORE: ${score}`;
             generateInputs(currentQuestion.answer, currentQuestion);
+
+            // Generate hint for the current question
+            generateHint(scrambleAnswer(currentQuestion.answer));
         } else {
             // All questions answered, proceed to highscore
             displayHighscore();
@@ -210,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function goToIndexPage() {
         window.location.href = 'index.html';
     }
-
+ 
     // Play correct sound
     function playCorrectSound() {
         const correctSound = document.getElementById('correct');

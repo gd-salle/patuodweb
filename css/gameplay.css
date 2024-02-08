@@ -155,11 +155,46 @@ input:focus{
     z-index: 1000; /* Ensure it's above other elements */
 }
 
+.hint-container {
+    display: none;
+    position: absolute;
+    color: black;
+    font-family: 'Quiapo Free', sans-serif;
+    font-size: 50px;
+    letter-spacing: 20px;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+#hintBtn {
+    background-color: #6E2E06;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 6.7%;
+    right: 7%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
 /* Default styles for larger screens */
 /* Add your existing styles here */
 
 /* Media queries for mobile phones */
 @media only screen and (min-width: 350px) and (max-width: 600px) {
+
+    .hint-container{
+        font-size: 30px;
+    }
+    #hintBtn{
+        right: 15%;
+        width: 60px;
+    }
+
     .gameplay-section {
         background-size: cover;
     }
@@ -217,6 +252,12 @@ input:focus{
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px){
+
+    #hintBtn{
+        right: 12%;
+        width: 60px;
+    }
+
     .gameplay-section {
         background-size: cover;
     }
