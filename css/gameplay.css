@@ -159,7 +159,9 @@ input:focus{
     display: none;
     position: absolute;
     color: black;
-    font-family: 'Quiapo Free', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     letter-spacing: 20px;
     top: 50%;
