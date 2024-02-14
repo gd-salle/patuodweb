@@ -69,7 +69,6 @@ html, body {
 }
 @media only screen and (min-width: 800px) and (max-width: 1200px){
 
-
     #return-button > button {
         top: 8%;
         left: 8%;
