@@ -56,7 +56,7 @@ html, body {
 }
 
 .information{
-    justify-content: center;
+    text-align: center;
     font-size: 40px;
     width: 50vw;
     padding-bottom: 20px;
