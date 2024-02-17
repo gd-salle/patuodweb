@@ -99,25 +99,21 @@ html, body {
 
 @media only screen and (min-width: 350px) and (max-width: 600px){
 
-    .instructions > li > b {
-        font-size: 20px;
-    }
-    .instructions > li{
-        font-size: 15px;
+    .instructions{
+        width: 75vw;
     }
 
-    .htp-container{
-        border-radius: 15px 15px 0 0;
-    }
     #return-button > button {
         top: 5%;
         left: 12%;
     }
 
     .htp-title > .line-one {
-        font-size: 50px;
+        font-size: 60px;
     }
     .htp-container{
         height: 65vh;
+        border-radius: 15px 15px 0 0;
+        width: 100vw;
     }
 }

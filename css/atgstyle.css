@@ -121,15 +121,26 @@ html, body {
 
 @media only screen and (min-width: 350px) and (max-width: 600px){
 
+    .information{
+        font-size: 20px;
+        width: 80vw;
+    }
+
+    .information p > b{
+        font-size: 20px;
+    }
+
     #return-button > button {
         top: 5%;
         left: 12%;
     }
 
     .atg-title > .line-one {
-        font-size: 50px;
+        font-size: 45px;
     }
     .atg-container{
         height: 65vh;
+        width: 100vw;
+        border-radius: 15px 15px 0 0;
     }
 }
