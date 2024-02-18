@@ -2,18 +2,18 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // FOOD CATEGORY
-        { category: 'Food', question: 'Harong ko sa laog malapot\nDae pwerta daeng gakot', answer: 'Sugok', status: true},
+        { category: 'Food', question: 'Harong ko sa laog malapot\nDaeng pwerta daeng gakot', answer: 'Sugok', status: true},
         { category: 'Food', question: 'Tubig naging dugo\nDugo naging gapo', answer: 'Sangkaka', status: true},
         { category: 'Food', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Batag', status: true},
-        { category: 'Food', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Blue Whale', status: true},
-        { category: 'Food', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Tipong', status: true},
-        { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Lukban', status: true},
+        { category: 'Food', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Tipong', status: true},
+        { category: 'Food', question: 'Bola an laog gapas\nGapas an laog dagom\nDagom an laog tubig', answer: 'Lukban', status: true},
+        { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Tapayas', status: true},
         { category: 'Food', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
         { category: 'Food', question: 'An payong nin agta\nDae nababasa', answer: 'Natong', status: true},
         { category: 'Food', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'Tubo', status: true},
         { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Kalabasa', status: true},
-        { category: 'Food', question: 'Harong kosa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
-        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukurahaw', answer: 'Sili', status: true},
+        { category: 'Food', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
     ]
 
     // GAMEPLAY SECTION

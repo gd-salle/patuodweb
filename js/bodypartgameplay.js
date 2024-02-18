@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // ARRAY OF OBJECTS
     const questions = [
         // BODY PART CATEGORY
-        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal ning tingga', answer: 'Dila', status: true},
+        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal nin tingga', answer: 'Dila', status: true},
         { category: 'BodyPart', question: 'Duwang bolang itom\nHarayo an inabaton\nDae man inapon', answer: 'Mata', status: true},
         { category: 'BodyPart', question: 'Kaputi ta yaon\n Hilinga ta mayo', answer: 'Talinga', status: true},
-        { category: 'BodyPart', question: 'Mapasatubig\nMapasakalayo\nDae naaano', answer: 'Anino', status: true},
+        { category: 'BodyPart', question: 'Mapasatubig, Mapasakalayo\nDae naaano', answer: 'Anino', status: true},
     ]
 
     // GAMEPLAY SECTION

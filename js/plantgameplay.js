@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'tubo' , status: true},
         { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'kalabasa' , status: true},
         { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'kabute' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'sili' , status: true},
+        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukuharaw', answer: 'sili' , status: true},
         { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'batag', status: true},
         { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'tipong', status: true},
         { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'lukban', status: true},

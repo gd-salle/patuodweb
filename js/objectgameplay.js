@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Object', question: 'Pagkaaga minatindog\nPagkabanggi lupaypay', answer: 'banig', status: true},
         { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'bado', status: true},
         { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'talayop', status: true},
-        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable kan kuryente', status: true},
+        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable', status: true},
         { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'oring', status: true},
         { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'dalan', status: true},
         { category: 'Object', question: 'Tulong magturugang\nMapuputi an daghan', answer: 'Taluhong', status: true},

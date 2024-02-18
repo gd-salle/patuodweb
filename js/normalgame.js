@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Plant', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'tubo' , status: true},
         { category: 'Plant', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'kalabasa' , status: true},
         { category: 'Plant', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'kabute' , status: true},
-        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukuharaw', answer: 'sili' , status: true},
+        { category: 'Plant', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukuharaw', answer: 'sili' , status: true},
         { category: 'Plant', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'batag', status: true},
         { category: 'Plant', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'tipong', status: true},
         { category: 'Plant', question: 'Bola an laog\nGapas an laog dagom\nDagom an laog tubig', answer: 'lukban', status: true},
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Object', question: 'Pagkaaga minatindog\nPagkabanggi lupaypay', answer: 'banig', status: true},
         { category: 'Object', question: 'Saro an nilaugan\nTulo an niluwasan', answer: 'bado', status: true},
         { category: 'Object', question: 'Kargada ni ama mo\nNagliligid sa abo', answer: 'talayop', status: true},
-        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable kan kuryente', status: true},
+        { category: 'Object', question: 'Ikog kan Karabaw\nNakaabot sa mindanao', answer: 'Kable', status: true},
         { category: 'Object', question: 'Binakal kong itom\nGinamit kong pula\nKan apuna nagin abo', answer: 'oring', status: true},
         { category: 'Object', question: 'Ikog kan amid\nNakasablay sa bukid', answer: 'dalan', status: true},
         { category: 'Object', question: 'Tulong magturugang\nMapuputi an daghan', answer: 'Taluhong', status: true},
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Fruit', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
 
         // // BODY PARTS CATEGORY
-        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal ning tingga', answer: 'Dila', status: true},
+        { category: 'BodyPart', question: 'Orig kong mataba\nNakakodal nin tingga', answer: 'Dila', status: true},
         { category: 'BodyPart', question: 'Duwang bolang itom\nHarayo an inabaton\nDae man inapon', answer: 'Mata', status: true},
         { category: 'BodyPart', question: 'Kaputi ta yaon\n Hilinga ta mayo', answer: 'Talinga', status: true},
         { category: 'BodyPart', question: 'Mapasatubig, Mapasakalayo\nDae naaano', answer: 'Anino', status: true},
@@ -76,18 +76,18 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'HeavenlyBody', question: 'Kalibkib na lubi\nNag iidos kun banggi', answer: 'Bulan', status: true},
 
         // FOOD
-        { category: 'Food', question: 'Harong ko sa laog malapot\nDae pwerta daeng gakot', answer: 'Sugok', status: true},
+        { category: 'Food', question: 'Harong ko sa laog malapot\nDaeng pwerta daeng gakot', answer: 'Sugok', status: true},
         { category: 'Food', question: 'Tubig naging dugo\nDugo naging gapo', answer: 'Sangkaka', status: true},
         { category: 'Food', question: 'Namotan ko si aki mo\nGinadan ko si ina mo', answer: 'Batag', status: true},
         { category: 'Food', question: 'Tubig sa rikandikan\nDae nauuranan', answer: 'Tipong', status: true},
-        { category: 'Food', question: 'Bola an laog gapos\nGapas an laog dagom\nDagom an laog tubig', answer: 'Lukban', status: true},
+        { category: 'Food', question: 'Bola an laog gapas\nGapas an laog dagom\nDagom an laog tubig', answer: 'Lukban', status: true},
         { category: 'Food', question: 'Tulak ni Padre Gomez\nPano nin perdigones', answer: 'Tapayas', status: true},
         { category: 'Food', question: 'Orig ko sa pulo\nBulbol na pako', answer: 'Langka', status: true},
         { category: 'Food', question: 'An payong nin agta\nDae nababasa', answer: 'Natong', status: true},
         { category: 'Food', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'Tubo', status: true},
         { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Kalabasa', status: true},
-        { category: 'Food', question: 'Harong kosa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
-        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano kapa nagkukurahaw', answer: 'Sili', status: true},
+        { category: 'Food', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
 
         // NATURAL PHENOMENA
         { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Balangaw', status: true},
