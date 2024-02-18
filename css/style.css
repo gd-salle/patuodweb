@@ -66,6 +66,17 @@ a {
     animation: blink 1.75s ease-in-out infinite; /* Adjusted animation for smoother effect */
 }
 
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba(143, 83, 15, 0.65);
+    width: 100vw;
+    text-align: left;
+    font-weight: normal;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 8px;
+}
 @keyframes blink {
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
