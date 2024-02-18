@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // OBJECT CATEGORY
         { category: 'Object', question: 'Yugyog sa kabalagunan\nHuning kapunayan', answer: 'gitara', status: true},
         { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'tubo', status: true},
-        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'palito', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom an payo', answer: 'palito', status: true},
         { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'ulunan', status: true},
         { category: 'Object', question: 'Binotong ko si balagon\nNaribok si maghapon', answer: 'kampana', status: true},
         { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'sako', status: true},

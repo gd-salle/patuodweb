@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // OBJECT CATEGORY
         { category: 'Object', question: 'Yugyog sa kabalagunan\nHuning kapunayan', answer: 'gitara', status: true},
         { category: 'Object', question: 'Harong ko sa bulod\nSaro-saro an tukod', answer: 'tubo', status: true},
-        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom ang payo', answer: 'palito', status: true},
+        { category: 'Object', question: 'Bakong tao, bakong hayop\nMaitom an payo', answer: 'palito', status: true},
         { category: 'Object', question: 'Bakong tao, bakong hayop\nNagsusulot plantsado', answer: 'ulunan', status: true},
         { category: 'Object', question: 'Binotong ko si balagon\nNaribok si maghapon', answer: 'kampana', status: true},
         { category: 'Object', question: 'Kun basog tindog\nKun gutom lup-og', answer: 'sako', status: true},
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Food', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'Tubo', status: true},
         { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Kalabasa', status: true},
         { category: 'Food', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
-        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na si hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
 
         // NATURAL PHENOMENA
         { category: 'Natural', question: 'Pag-agi ni kuwaw\nHinigop an sabaw', answer: 'Balangaw', status: true},

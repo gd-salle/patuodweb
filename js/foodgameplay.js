@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { category: 'Food', question: 'Tubig sa daso\nDae nagkakalago-kago', answer: 'Tubo', status: true},
         { category: 'Food', question: 'An magurang dai naghihiro\nAn aki nagkakamang', answer: 'Kalabasa', status: true},
         { category: 'Food', question: 'Harong ko sa Masbate\nSaro saro an harigi', answer: 'Kabute', status: true},
-        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
+        { category: 'Food', question: 'Sako na ngani si hilaw\nSaimo na si hinog\nTano ka pa nagkukurahaw', answer: 'Sili', status: true},
     ]
 
     // GAMEPLAY SECTION
